@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main{
+    display:grid;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.box1{
+    background-color: green;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.box2{
+    background-color: yellow;
+   
+}
+.box3{
+    background-color: pink;
+    
+}
+.box4{
+    background-color: magenta;
+    
+}
+
+.box5{
+    background-color: teal;
+    
+}
+.box6{
+    background-color: tomato;
+   
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
